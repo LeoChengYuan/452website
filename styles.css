@@ -1,34 +1,37 @@
-/* Leo ChengYuan */
+    /* Leo ChengYuan */
+
 body {
     font-family: Arial, sans-serif;
+    /*  Sets the default font for the entire page to Arial, with sans-serif as a fallback. */
 }
 
 nav {
     background-color: #d61c1c;
-    color: #fff;
+    color: #bbd64e;
     padding: 10px;
+    /*  Sets the background color of the navigation bar to dark gray (#333) and the text color to white (#fff). Adds padding of 10 pixels around the content. */
+
     display: flex;
     justify-content: center;
-    /* Uses flexbox to center the contents of the navigation bar horizontally. */
+    /* : Uses flexbox to center the contents of the navigation bar horizontally. */
 
     align-items: center;
-    /* Centers the items vertically within the navigation bar. */
-
     height: 40px;
     border-top: 1px solid #ddd;
 
     border-bottom: 1px solid #ddd;
+    /* Adds a 1-pixel solid bottom border with the color #ddd (light gray). */
 
     border-left: 1px solid #ddd;
 
     border-right: 1px solid #ddd;
+    /* Adds a 1-pixel solid right border with the color #ddd (light gray). */
 }
 
 nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    /* Removes the default list-style-type (bullets) and sets the margins and padding to 0 for the unordered list within the navigation bar. */
 
     display: flex;
     /*  Uses flexbox to display the list items horizontally. */
@@ -36,16 +39,18 @@ nav ul {
 
 nav ul li {
     display: inline;
-    /* Makes the list items display inline, so they appear next to each other instead of on separate lines. */
+    /* Explanation: Makes the list items display inline, so they appear next to each other instead of on separate lines. */
 }
 
 nav ul li a {
     color: #fff;
     text-decoration: none;
-    padding: 10px;}
+    padding: 10px;
+}
 
 h1 {
     margin-top: 0;
+    /* Removes the default top margin from the h1 heading. */
 }
 
 footer {
@@ -57,30 +62,29 @@ footer {
 
 .product-category {
     margin-bottom: 20px;
+    /* Adds a bottom margin of 20 pixels to the product category container. */
 }
 
 .products {
     display: flex;
     justify-content: space-between;
-    /* Uses flexbox to display the products horizontally with equal spacing between them. */
 }
 
 .product {
     width: 30%;
     text-align: center;
-    /*  Sets the width of each product to 30% of the available space and centers the text within the product container. */
 }
 
 .product img {
     width: 100%;
     height: auto;
-    /*  Makes the image within the product container expand to fill the width of the container while maintaining the aspect ratio (height is adjusted automatically). */
 }
 
 .blog-post {
     background-color: #f5f5f5;
     padding: 20px;
     margin-bottom: 20px;
+    /* Sets the background color of the blog post to light gray (#f5f5f5), adds padding of 20 pixels, and adds a bottom margin of 20 pixels. */
 }
 
 .more-posts {
@@ -101,10 +105,10 @@ footer {
 
 .more-posts ul li {
     margin-bottom: 5px;
-    /* Adds a bottom margin of 5 pixels to each list item within the "More Articles" list. */
 }
 
 .more-posts ul li a {
     text-decoration: none;
     color: #333;
+    /* Removes the underline from the links within the "More Articles" list and sets the text color to dark gray (#333). */
 }
